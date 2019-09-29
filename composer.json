@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/gdpr",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\GDPR\\Providers\\GDPRServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GDPR\\": ""
+        }
+    }
+}
