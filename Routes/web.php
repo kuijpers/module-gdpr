@@ -12,5 +12,5 @@
 */
 
 Route::prefix('gdpr')->group(function() {
-    Route::get('/', 'GDPRController@index');
+    Route::get('/', 'GDPRController@index')->name('main.gdpr');
 });
